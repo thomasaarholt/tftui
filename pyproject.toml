@@ -1,0 +1,17 @@
+[project]
+name = "tftui"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "textual-autocomplete<3",
+    "textual>=0.79.1",
+]
+
+[project.scripts]
+hello = "tftui:hello"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

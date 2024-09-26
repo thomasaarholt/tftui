@@ -1,0 +1,33 @@
+#left {
+    width: 50%;
+    layout: grid;
+    grid-size: 6 10;
+}
+
+#right {
+   width: 50%;
+}
+
+#controls {
+  height: 5%;
+  margin: 1 5;
+
+}
+
+.box {
+    height: 100%;
+    width: 100%;
+    margin: 1 1;
+}
+
+.control {
+  width: 1fr;
+}
+
+Button {
+  border: none;
+}
+
+Vertical {
+  height:100%;
+}
